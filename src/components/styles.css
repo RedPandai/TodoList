@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 /* general */
 *{
     box-sizing: border-box;
@@ -24,9 +23,6 @@ button {
     background-color: rgb(206, 243, 181);
     color:rgb(82, 74, 62);
     font-size:1.2em;
-}
-span{
-    padding-left: .3em;;
 }
 
 /* header */

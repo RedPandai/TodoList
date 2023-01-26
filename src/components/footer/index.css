@@ -1,0 +1,28 @@
+/* footer */
+/* 像这里这样的样式模块化可行 但是全局引用（App.css）也是可行的，这里只用footer样式为例子，如果需要进一步模块化可以继续拆分其他的部分（比如header等） */
+
+.todo-footer{
+    border:solid 2px rgb(13, 46, 5);;
+    width:400px;
+    display:inline-block;
+    border-radius: 5px;
+    padding:20px 10px;
+    margin-bottom: 1em;
+}
+.todo-footer-label{
+    float:left;
+    margin-left: 10px;
+    padding:5px;
+}
+.btn-footer{
+    background-color: rgb(250, 91, 28);
+    color:white;
+    border: 1px solid rgb(194, 102, 60);
+    border-radius: 5px;
+    padding:7px;
+    float:right;
+}
+.btn-footer:hover{
+    background-color:rgb(211, 14, 14);
+    box-shadow: 0 0 10px 0 rgb(236, 231, 210);
+}

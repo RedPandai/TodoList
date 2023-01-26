@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-wrap">
+        <h1>To Do List</h1>
+        <header class="header">
+            <input type='text' placeholder="Input todos here and press enter"/>
+        </header> 
+        <div class='todo-container'>
+            <ul class="todo-main">
+                <li class="todo-item">
+                    <label class="todo-item-label">
+                        <input class='checkbox' type="checkbox"/>
+                        <span>Coding</span>
+                    </label>
+                    <button class='btn-delete' >delete</button>
+                </li> 
+            </ul>
+        </div>
+        <footer class="todo-footer">
+            <label class="todo-footer-label">
+                <input class='checkbox' type="checkbox"/>
+                <span>Has Completed 0 / 4 </span>  
+            </label>
+            <button class="btn-footer">Delete Completed</button>
+        </footer>
+    </div>
+</body>
+</html>
