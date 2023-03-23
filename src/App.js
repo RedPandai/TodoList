@@ -7,11 +7,7 @@ import "./App.css";
 
 class App extends Component {
   state = {
-    todos: [
-      { name: "Coding", id: "001", done: true },
-      { name: "CSS", id: "002", done: false },
-      { name: "JS", id: "003", done: false },
-    ],
+    todos: [],
   };
 
   addTodos = (todoObj) => {

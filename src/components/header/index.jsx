@@ -9,7 +9,6 @@ class Header extends Component {
     handleKeyUp = (e)=>{
         if(e.target.value.trim()==='') {
             alert('Input cannot be Blank')
-            //use modal or something else in the future to be alert
         }
         if(e.keyCode !==13) return;
         const todoObj = {name:e.target.value, id:nanoid(), done:false};
